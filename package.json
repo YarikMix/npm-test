@@ -6,6 +6,7 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "author": "wely6743",
+  "type": "module",
   "scripts": {
     "type-check": "tsc --noEmit",
     "build": "npm run type-check && rollup -c",
