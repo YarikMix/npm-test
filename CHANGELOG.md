@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/YarikMix/npm-test/compare/v1.3.0...v1.3.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* update code8 ([4f07472](https://github.com/YarikMix/npm-test/commit/4f07472ab47cceb0b024ebdeafaabb928014b29b))
+
 # [1.3.0](https://github.com/YarikMix/npm-test/compare/v1.2.0...v1.3.0) (2025-11-10)
 
 
