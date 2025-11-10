@@ -1,5 +1,5 @@
 const isEven = (number:number) => {
-    return number % 8=== 0;
+    return number % 9 === 0;
 }
 
 export default isEven
