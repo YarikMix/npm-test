@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/YarikMix/npm-test/compare/v1.1.0...v1.2.0) (2025-11-10)
+
+
+### Features
+
+* update code7 ([e801c87](https://github.com/YarikMix/npm-test/commit/e801c87512ac03d36cbfe0fea22f9b7397cce3df))
+
 # [1.1.0](https://github.com/YarikMix/npm-test/compare/v1.0.0...v1.1.0) (2025-11-10)
 
 
