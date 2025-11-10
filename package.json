@@ -2,11 +2,14 @@
   "name": "@wely6743/is-even",
   "version": "1.0.0",
   "description": "is even util",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "author": "wely6743",
   "scripts": {
     "type-check": "tsc --noEmit",
-    "build": "npm run type-check && rollup -c"
+    "build": "npm run type-check && rollup -c",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -24,30 +27,6 @@
     "dist/**/*",
     "README.md"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
